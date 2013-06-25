@@ -6,9 +6,6 @@
 	<title>The Gittisarn Kids</title>
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/mediaqueries.css">
-	<script src="js/fittext.js"></script>
-	<script src="js/jquery.js"></script>
-	<script src="js/main.js"></script>
 </head>
 <body>
 	<div class="wrap">
