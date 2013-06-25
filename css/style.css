@@ -1,0 +1,175 @@
+/********************************
+Main
+********************************/
+
+html{
+	height: 100%;
+	font-family:'Lifes-A-Beach', 'BeachType', Papyrus, sans-serif;
+}
+
+body{
+	background-color: #FFF;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	background: url('../Pictures/bg.jpg') no-repeat;
+	background-size: 100% 200%;
+}
+
+.wrap{
+	background-color: white;
+	width: 65%;
+	margin: 0 auto;
+	min-height: 100%;
+	border-radius: 3%;
+	box-shadow: 1px 1px 1000px rgba(0, 0, 0, .5);
+}
+
+/********************************
+Anchor Tags
+********************************/
+a{
+	padding: 3%;
+	margin: 0 1% 0 5%;
+}
+
+a:link{
+	color: #8DF7E0;
+	text-decoration: none;
+}
+
+a:visited{
+	color: #8DD7E0;
+	text-decoration: none;
+}
+
+
+a:hover{
+	color: #1B59E0;
+	text-decoration: none;
+}
+
+a:focus{
+	color: #1B59E0;
+}
+
+a:active{
+	color: #351BE0;
+	text-decoration: none;
+}
+/*
+.home{
+	background: url('../Pictures/Boards/homeboard.jpg') no-repeat center;
+}
+
+.chase{
+	background: url('../Pictures/Boards/chaseboard.jpg') no-repeat center;
+}
+
+.london{
+	background: url('../Pictures/Boards/londonboard.jpg') no-repeat center;
+}
+
+.holland{
+	background: url('../Pictures/Boards/hollandboard.jpg') no-repeat center;
+}
+
+.brooklyn{
+	background: url('../Pictures/Boards/brooklynboard.jpg') no-repeat center;
+}
+
+.rome{
+	background: url('../Pictures/Boards/romeboard.jpg') no-repeat center;
+}
+/********************************
+Middle
+********************************/
+
+h1{
+	text-align: center;
+	margin-top: 0;
+	padding-top: 2%;
+}
+
+.margin{
+	padding: 3%;
+}
+
+/********************************
+Middle
+********************************/
+
+p{
+	text-align: center;
+	margin: 2%;
+}
+
+
+#pic{
+	width: 70%;
+	height: 100%;
+	margin-left: 15%;
+	margin-right: 25%;
+}
+
+/********************************
+Bottom
+********************************/
+
+
+.logo{
+	width: 25%;
+	height: 13%;
+	margin: 0 0 0 14%;
+	float: left;
+}
+
+.verse{
+	margin: -10% 15% 0 55%;
+	font-size: 150%;
+	float: right;
+}
+
+/********************************
+Clearfixes
+********************************/
+
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display: inline-block;
+}
+
+/********************************
+Custom Fonts
+********************************/
+
+@font-face{
+	font-family: "BeachType";
+	src: url('../Fonts/BEACHTYP.TTF');
+}
+
+@font-face{
+	font-family: "Lifes-A-Beach";
+	src: url('../Fonts/Lifes-A-Beach/Lifes A Beach.ttf');
+}
+
+
+
+
+
+
+
+
+
+
+
+

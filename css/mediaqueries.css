@@ -1,0 +1,155 @@
+/********** Layout Breakdown (a) **********/
+@media screen and (max-width: 1419px){
+	a{
+		margin: 0 1% 0 6%;
+		padding: 2%;
+	}
+}
+
+/********** Layout Breakdown (a) **********/
+@media screen and (max-width: 1198px){
+	a{
+		margin: 0 1% 0 5%;
+	}
+}
+
+/********** ipad Landscape **********/
+@media screen and (max-width: 1024px){
+	.logo{
+		display: block;
+		margin: 0 0 0 33%;
+		width: 35%;
+		height: 35%;
+	}
+	
+	.verse{
+		display: block;
+		margin: 6% 28% 0 28%;
+		text-align: center;
+	}
+	
+	a{
+		margin: 0 0 0 5.5%;
+		padding: 2%;
+	}
+	
+	#margin{
+		margin: 3% 0 3% 0;
+	}
+	
+}
+
+/********** Layout Breakdown (a) **********/
+@media screen and (max-width: 947px){
+	a{
+		margin: 0 1% 0 4%;
+	}
+}
+
+/********** Layout Breakdown (a) **********/
+@media screen and (max-width: 885px){
+	a{
+		margin: 0 1% 0 3.5%;
+	}
+}
+
+/********** Layout Breakdown (a) **********/
+@media screen and (max-width: 831px){
+	a{
+		margin: 0 1% 0 3%;
+	}
+}
+
+/********** Layout Breakdown (a) **********/
+@media screen and (max-width: 783px){
+	a{
+		margin: 0 1% 0 2.5%;
+	}
+}
+
+/********** Layout Breakdown (a) **********/
+@media screen and (max-width: 740px){
+	a{
+		margin: 0 1% 0 2%;
+	}
+}
+
+/********** Layout Breakdown (a) **********/
+@media screen and (max-width: 702px){
+	a{
+		margin: 0 1% 0 1.5%;
+	}
+}
+
+/********** Layout Breakdown (a) **********/
+@media screen and (max-width: 667px){
+	a{
+		margin: 0 1% 0 1.2%;
+	}
+}
+
+/********** Layout Breakdown (logo) **********/
+@media screen and (max-width: 657px){
+	.logo{
+		width: 45%;
+		height: 45%;
+		margin: 0 0 0 28%;
+	}
+}
+
+/********** Layout Breakdown (a) **********/
+@media screen and (max-width: 648px){
+	a{
+		margin: 0 1% 0;
+	}
+}
+
+/********** Layout Breakdown (a) **********/
+@media screen and (max-width: 636px){
+	a{
+		display: block;
+		margin: 0 0 1% 40%;
+	}
+	
+	h1{
+		margin: 0;
+		padding: 0;
+	}
+}
+
+/********** iphone Landscape **********/
+@media screen and (max-width: 480px){
+	.verse{
+		margin: 0 15%;
+		text-align: center;
+	}
+	
+	.logo{
+		margin: 0 0 0 25%;
+		width: 50%;
+		height: 50%;
+	}
+	
+	a{
+		display: block;
+		margin: 0 0 5% 38%;
+	}
+	
+	h1{
+		margin: 0;
+		padding: 0;
+	}
+	
+	p{
+		margin: 0 5%;
+	}
+}
+
+/********** iphone Protrait **********/
+@media screen and (max-width: 320px){
+	a{
+		margin: 0 0 0 0;
+		display: block;
+		text-align: center;
+	}
+}
