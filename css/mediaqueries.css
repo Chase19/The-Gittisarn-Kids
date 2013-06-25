@@ -131,8 +131,11 @@
 	}
 	
 	a{
+		width: 100px;
+		text-align: center;
 		display: block;
-		margin: 0 0 5% 38%;
+		/*margin: 0 0 5% 38%;*/
+		margin: 0 auto;
 	}
 	
 	h1{
