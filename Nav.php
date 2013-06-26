@@ -7,11 +7,11 @@
 	<a href="Rome.php"><img src="Pictures/surfboard.jpg"></a>
 </div>-->
 	
-<ul class="nav">
-	<li><a class="home" href="index.php">Home</a></li>
-	<li><a class="chase"href="Chase.php">Maverick</a></li>
-	<li><a class="london" href="London.php">Breeze</a></li>
-	<li><a class="holland" href="Holland.php">Rider</a></li>
-	<li><a class="brooklyn" href="Brooklyn.php">Kiwi</a></li>
-	<li><a class="rome" href="Rome.php">Rock</a></li>
-</ul>
+<div class="nav">
+	<div><a class="home" href="index.php">Home</a></div>
+	<div><a class="chase"href="Chase.php">Maverick</a></div>
+	<div><a class="london" href="London.php">Breeze</a></div>
+	<div><a class="holland" href="Holland.php">Rider</a></div>
+	<div><a class="brooklyn" href="Brooklyn.php">Kiwi</a></div>
+	<div><a class="rome" href="Rome.php">Rock</a></div>
+</div>
