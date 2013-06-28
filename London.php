@@ -4,6 +4,8 @@
 	
 	<div class="margin"></div>
 
+<? include "button.php" ?>
+
 <? include "Nav.php" ?>
 	
 	<p>This is London the second oldest. She is eleven years old, is in sixth grade, and plays the piano, her favorite author is Laura Ingalls Wilder, and she is learning graphic design in adobe photoshop cs6.</p> 

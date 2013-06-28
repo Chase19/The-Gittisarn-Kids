@@ -6,6 +6,13 @@
 	}
 }
 
+/********** Layout Breakdown (Search Feild) **********/
+@media screen and (max-width: 1280px){
+	input{
+		margin: 0 0 2% 70%;
+	}
+}
+
 /********** Layout Breakdown (a) **********/
 @media screen and (max-width: 1198px){
 	a{
@@ -46,10 +53,27 @@
 	}
 }
 
-/********** Layout Breakdown (a) **********/
+/********** Layout Breakdown (Search Felid) **********/
+@media screen and (max-width: 938px){
+	input{
+		margin: 0 0 2% 66%;
+	}
+}
+
+/********** Layout Breakdown (a & Search Felid) **********/
 @media screen and (max-width: 885px){
 	a{
 		margin: 0 1% 0 3.5%;
+	}
+	
+	input{
+		margin: 0 0 2% 39%;
+	}
+	
+	button{
+		display: block;
+		margin: 0 0 2% 39.5%;
+		width: 20.5%;
 	}
 }
 
@@ -104,7 +128,7 @@
 	}
 }
 
-/********** Layout Breakdown (a) **********/
+/********** Layout Breakdown (a & Search Felid) **********/
 @media screen and (max-width: 636px){
 	a{
 		display: block;
@@ -114,6 +138,10 @@
 	h1{
 		margin: 0;
 		padding: 0;
+	}
+	
+	input{
+		margin: 0 0 2% 35%;
 	}
 }
 
@@ -145,6 +173,10 @@
 	
 	p{
 		margin: 0 5%;
+	}
+	
+	input{
+		margin: 0 0 2% 26%;
 	}
 }
 

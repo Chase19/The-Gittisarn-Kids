@@ -4,6 +4,8 @@
 		
 	<div class="margin"></div>
 
+<? include "button.php" ?>
+
 <? include "Nav.php" ?>
 
 	<p>Rome is the youngest in the family. He is in pre-k, likes to play with lego star wars, and on my moms iphone.</p>

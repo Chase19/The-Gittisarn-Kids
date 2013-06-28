@@ -8,7 +8,7 @@ html{
 }
 
 body{
-	background-color: #FFF;
+	background-color: white;
 	width: 100%;
 	height: 100%;
 	margin: 0 auto;
@@ -86,7 +86,7 @@ a:active{
 	background: url('../Pictures/Boards/romeboard.jpg') no-repeat center;
 }
 /********************************
-Middle
+Top
 ********************************/
 
 h1{
@@ -96,7 +96,17 @@ h1{
 }
 
 .margin{
-	padding: 3%;
+	padding: 1%;
+}
+
+input,
+button{
+	display: inline;
+	position: inherit;
+}
+
+input{
+	margin: 0 0 2% 78%;
 }
 
 /********************************
@@ -167,7 +177,6 @@ Custom Fonts
 	font-family: "Lifes-A-Beach";
 	src: url('../Fonts/Lifes-A-Beach/Lifes A Beach.ttf');
 }
-
 
 
 

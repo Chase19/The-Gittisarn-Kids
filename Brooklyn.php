@@ -4,6 +4,8 @@
 		
 		<div class="margin"></div>
 
+<? include "button.php" ?>
+
 <? include "Nav.php" ?>
 	
 <p>Brooklyn is number four. She is six years old, in kindergarten, and likes to watch television.</p>
