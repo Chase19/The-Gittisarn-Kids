@@ -12,7 +12,7 @@ var pass = prompt("Please Enter Password");
 */
 
 $("button").click(function(){
-	if("Chase", "chase", "Maverick", "maverick"){
+	if("chase", "maverick"){
 		location.href = 'Chase.php';
 	}
 	
