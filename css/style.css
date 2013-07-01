@@ -40,8 +40,15 @@ Anchor Tags
 a{
 	color: #8DF7E0;
 	text-decoration: none;
-	padding: 2%;
-	margin: 0 3.5% 0 3.5%;
+	padding: 1.5%;
+	margin: 0 0 0 2%;
+	width: 100px;
+	height: 60px;
+	display: inline-block;
+	color: transparent;
+	background: url('../Pictures/Boards/homeboard.jpg') no-repeat;
+	overflow: hidden;
+	transition: .2s .2s ease-in;
 }
 
 a:visited{
@@ -51,6 +58,7 @@ a:visited{
 
 a:hover{
 	color: #1B59E0;
+	background: url('../Pictures/Boards/homeboard.jpg') no-repeat center;
 }
 
 a:focus{
@@ -60,30 +68,6 @@ a:focus{
 
 a:active{
 	color: #351BE0;
-}
-/*
-.home{
-	background: url('../Pictures/Boards/homeboard.jpg') no-repeat center;
-}
-
-.chase{
-	background: url('../Pictures/Boards/chaseboard.jpg') no-repeat center;
-}
-
-.london{
-	background: url('../Pictures/Boards/londonboard.jpg') no-repeat center;
-}
-
-.holland{
-	background: url('../Pictures/Boards/hollandboard.jpg') no-repeat center;
-}
-
-.brooklyn{
-	background: url('../Pictures/Boards/brooklynboard.jpg') no-repeat center;
-}
-
-.rome{
-	background: url('../Pictures/Boards/romeboard.jpg') no-repeat center;
 }
 /********************************
 Top
