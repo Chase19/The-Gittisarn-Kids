@@ -48,7 +48,7 @@ a{
 	color: transparent;
 	background: url('../Pictures/Boards/homeboard.jpg') no-repeat;
 	overflow: hidden;
-	transition: .2s .2s ease-in;
+	transition: color .2s .2s ease-in, background .15s .1s ease-in;
 }
 
 a:visited{
