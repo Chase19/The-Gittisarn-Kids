@@ -48,7 +48,13 @@ a{
 	color: transparent;
 	background: url('../Pictures/Boards/homeboard.jpg') no-repeat;
 	overflow: hidden;
-	transition: color .2s .2s ease-in, background .15s .1s ease-in;
+	transition: color .2s .2s ease-in, background-size 1s .1s ease-in;
+}
+
+.on{
+	background-size: 0 0;
+	text-decoration: underline;
+	color: #8DD7E0;
 }
 
 a:visited{
@@ -58,7 +64,8 @@ a:visited{
 
 a:hover{
 	color: #1B59E0;
-	background: url('../Pictures/Boards/homeboard.jpg') no-repeat center;
+	background: url('../Pictures/Boards/homeboard.jpg') no-repeat top;
+	background-size: 0 0;
 }
 
 a:focus{
@@ -69,6 +76,7 @@ a:focus{
 a:active{
 	color: #351BE0;
 }
+
 /********************************
 Top
 ********************************/

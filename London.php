@@ -1,4 +1,7 @@
-<? include "Head.php" ?>
+<? 
+$section = "london";
+include ("Head.php"); 
+?>
 	
 	<h1>Breeze</h1>
 	

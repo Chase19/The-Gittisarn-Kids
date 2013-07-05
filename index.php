@@ -1,4 +1,7 @@
-<? include "Head.php" ?>
+<?php 
+$section = "home";
+include ("Head.php"); 
+?>
 	
 	<h1>Soul Surfers</h1>
 

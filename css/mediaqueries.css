@@ -1,8 +1,22 @@
 /********** Layout Breakdown (a) **********/
 @media screen and (max-width: 1419px){
 	a{
-		margin: 0 1% 0 6%;
-		padding: 2%;
+		margin: 0 0 0 2%;
+	}
+}
+
+/********** Layout Breakdown (a) **********/
+@media screen and (max-width: 1373px){
+	a{
+		margin: 0 0 0 1.5%;
+	}
+}
+
+/********** Layout Breakdown (a) **********/
+@media screen and (max-width: 1316px){
+	a{
+		margin: 0 0 0 1%;
+		padding: 1%;
 	}
 }
 
@@ -14,9 +28,18 @@
 }
 
 /********** Layout Breakdown (a) **********/
-@media screen and (max-width: 1198px){
+@media screen and (max-width: 1172px){
 	a{
-		margin: 0 1% 0 5%;
+		margin: 0 0 0 .6%;
+		padding: .6%;
+	}
+}
+
+/********** Layout Breakdown (a) **********/
+@media screen and (max-width: 1077px){
+	a{
+		margin: 0 0 0 .3%;
+		padding: .3%;
 	}
 }
 
@@ -36,8 +59,8 @@
 	}
 	
 	a{
-		margin: 0 0 0 5.5%;
-		padding: 2%;
+		margin: 0 0 0 .18%;
+		padding: .18%;
 	}
 	
 	#margin{
@@ -51,9 +74,10 @@
 }
 
 /********** Layout Breakdown (a) **********/
-@media screen and (max-width: 947px){
+@media screen and (max-width: 993px){
 	a{
-		margin: 0 1% 0 4%;
+		margin: 0 0 0 10%;
+		padding: 2%;
 	}
 }
 
@@ -64,12 +88,8 @@
 	}
 }
 
-/********** Layout Breakdown (a & Search Felid) **********/
+/********** Layout Breakdown (Search Felid) **********/
 @media screen and (max-width: 885px){
-	a{
-		margin: 0 1% 0 3.5%;
-	}
-	
 	input{
 		margin: 0 0 2% 39%;
 	}
@@ -82,30 +102,18 @@
 }
 
 /********** Layout Breakdown (a) **********/
-@media screen and (max-width: 831px){
+@media screen and (max-width: 821px){
 	a{
-		margin: 0 1% 0 3%;
+		margin: 0 0 0 8%;
+		padding: 2%;
 	}
 }
 
 /********** Layout Breakdown (a) **********/
-@media screen and (max-width: 783px){
+@media screen and (max-width: 744px){
 	a{
-		margin: 0 1% 0 2.5%;
-	}
-}
-
-/********** Layout Breakdown (a) **********/
-@media screen and (max-width: 740px){
-	a{
-		margin: 0 1% 0 2%;
-	}
-}
-
-/********** Layout Breakdown (a) **********/
-@media screen and (max-width: 702px){
-	a{
-		margin: 0 1% 0 1.5%;
+		margin: 0 0 0 6%;
+		padding: 1%;
 	}
 }
 

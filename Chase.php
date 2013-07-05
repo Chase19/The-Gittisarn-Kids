@@ -1,4 +1,7 @@
-<? include "Head.php" ?>
+<? 
+$section = "chase";
+include ("Head.php");
+?>
 	
 	<h1>Maverick</h1>
 	

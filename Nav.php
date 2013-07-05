@@ -1,8 +1,8 @@
 <div class="nav">
-	<div><a class="home" href="index.php">Home</a></div>
-	<div><a class="chase"href="Chase.php">Maverick</a></div>
-	<div><a class="london" href="London.php">Breeze</a></div>
-	<div><a class="holland" href="Holland.php">Rider</a></div>
-	<div><a class="brooklyn" href="Brooklyn.php">Kiwi</a></div>
-	<div><a class="rome" href="Rome.php">Rock</a></div>
+	<div><a class="<?php if($section == "home"){echo "on";} ?>" href="index.php">Home</a></div>
+	<div><a class="<?php if($section == "chase"){echo "on";} ?>" href="Chase.php">Maverick</a></div>
+	<div><a class="<?php if($section == "london"){echo "on";} ?>" href="London.php">Breeze</a></div>
+	<div><a class="<?php if($section == "holland"){echo "on";} ?>" href="Holland.php">Rider</a></div>
+	<div><a class="<?php if($section == "brooklyn"){echo "on";} ?>" href="Brooklyn.php">Kiwi</a></div>
+	<div><a class="<?php if($section == "rome"){echo "on";} ?>" href="Rome.php">Rock</a></div>
 </div>
