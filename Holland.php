@@ -1,4 +1,5 @@
-<? 
+<?
+$pageTitle = "Rider"; 
 $section = "holland";
 include ("Head.php"); 
 ?>
@@ -6,8 +7,6 @@ include ("Head.php");
 	<h1>Rider</h1>
 	
 	<div class="margin"></div>
-
-<? include "button.php" ?>
 
 <? include "Nav.php" ?>
 

@@ -12,57 +12,63 @@ var pass = prompt("Please Enter Password");
 */
 
 
+$("form").submit(function() {
+	return false;
+});
 
-$("button").click(function (){
-	if("chase", "maverick"){
-		location.href = 'Chase.php';
-	}
-	
-	else{
-		alert("File Unknown");
-	}
-})
-/*
-$("button").click(function(){})
-	if("London", "london", "Breeze", "breeze"){
-		location.href = 'London.php';
-	}
-	
-	else{
-		alert("File Unknown");
-	}
-})
 
 $("button").click(function(){
-	if("Holland", "holland", "Rider", "rider"){
-		location.href = 'Holland.php';
-	}
 	
-	else{
-		alert("File Unknown");
-	}
-})
-
-$("button").click(function(){
-	if("Brooklyn", "brooklyn", "Kiwi", "kiwi"){
-		location.href = 'Brooklyn.php';
-	}
+	var searchTerms = {
+		"home": "index.php",
+		"chase": "Chase.php"
+	};
 	
-	else{
-		alert("File Unknown");
-	}
-})
-
-$("button").click(function(){
-	if("Rome", "rome", "Rock", "rock"){
-		location.href = 'Rome.php';
-	}
+	var input = $("input").val();
 	
-	else{
-		alert("File Unknown");
-	}
-})
-*/
+	
+	console.log(searchTerms["home"]);
+	
+	
+	// switch (input) {
+		
+	// 	case "home":
+	// 		location.href = 'index.php';
+	// 	break;
+		
+	// 	case "chase":
+	// 		location.href = 'Chase.php';
+	// 	break;
+	// }
+	
+	
+	
+	
+	// if(input == "home"){
+	// 	location.href = 'index.php';
+	// }
+		
+	// if(input == "chase"){
+	// 		location.href = 'Chase.php';
+	// }
+		
+	// if(input == "london"){
+	// 		location.href = 'London.php';
+	// }
+		
+	// if(input == "holland"){
+	// 		location.href = 'Holland.php';
+	// }
+		
+	// if(input == "brooklyn"){
+	// 		location.href = 'Brooklyn.php';
+	// }
+		
+	// if(input == "rome"){
+	// 		location.href = 'Rome.php';
+	// }
+	
+});
 	
 	
 	
