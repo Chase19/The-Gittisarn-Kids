@@ -1,19 +1,13 @@
 <?
+$h1 = "Rider";
 $pageTitle = "Rider"; 
 $section = "holland";
-include ("Head.php"); 
+include ("inc/Head.php");
 ?>
-	
-	<h1>Rider</h1>
-	
-	<div class="margin"></div>
-
-<? include "Nav.php" ?>
-
 	<p>Holland is the middle child. She is eight years old, in third grade, and plays piano. </p>
 	
 	<div class="pic">
-		<img id="pic" src="Pictures/Holland.jpg">
+		<img id="pic" src="img/Holland.jpg">
 	</div>
 
-<? include "Foot.php" ?>
+<? include ("inc/Foot.php"); ?>
