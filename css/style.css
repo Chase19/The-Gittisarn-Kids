@@ -7,12 +7,12 @@ html{
 	font-family:'Lifes-A-Beach', 'BeachType', Papyrus, sans-serif;
 }
 
-body{
+html body{
 	background-color: white;
 	width: 100%;
 	height: 100%;
 	margin: 0 auto;
-	background: url('../Pictures/bg.jpg') no-repeat;
+	background: url('../img/bg.jpg') no-repeat;
 	background-size: 100% 200%;
 }
 
@@ -26,58 +26,89 @@ body{
 }
 
 /********************************
-Anchor Tags
+Nav
 ********************************/
-.nav{
-	margin: 0;
+nav{
+	margin-left: 2%;
 	padding: 0;
 }
 
-.nav div{
+nav div{
 	display: inline;
 }
 
-a{
+nav div a{
 	text-decoration: none;
 	padding: 12px 5px 0;
-	width: 90px;
-	height: 50px;
+	width: 80px;
+	height: 40px;
 	display: inline-block;
 	color: transparent;
-	background: url('../Pictures/Boards/homeboard.jpg') no-repeat center top;
+	background: url('../img/Boards/homeboard.jpg') no-repeat center top;
+	background-size: 100% 70%; 
 	overflow: hidden;
-	transition: color .2s .2s ease-in, background-size 1s .1s ease-in;
+	transition: color .2s .2s ease-in, background-size .5s  ease-in;
 	text-align: center;
 }
 
-.on{
-	background-size: 0 0;
+nav div a.on{
+	background: url('../img/Boards/onboard.jpg') no-repeat center top;
+	background-size: 100% 70%;
 	text-decoration: underline;
-	color: #8DD7E0;
 	margin-left: 1%;
 	padding: 1%;
-	transition: color .1s .1s ease-out;
+	width: 70px;
+	height: 30px;
 }
 
-a:visited{
+nav div a:visited{
 	color: #8DD7E0;
 }
 
 
-a:hover{
-	color: #1B59E0;
+nav div a:hover{
+	color: #8DD7E0;
 	background-size: 0 0;
 }
 
-a:focus{
-	color: #1B59E0;
+nav div a:focus{
+	color: #8DD7E0;
 	text-decoration: underline;
 	background-size: 0 0;
 	transition: 0 0;
 }
 
-a:active{
+nav div a:active{
 	color: #351BE0;
+}
+
+/********************************
+Search Feild
+********************************/
+
+nav form input,
+nav form button,
+nav form{
+	display: inline;
+	position: inherit;
+}
+
+nav form input{
+	margin: 2% 0 0 5%;
+	border-radius: 1%;
+}
+
+nav form button:hover{
+	border: 2px solid #8DD7E0;
+	background-color: white;
+}
+
+nav form input:hover{
+	border: 2px solid #8DD7E0;
+}
+
+#text_feild{
+	width: 120px;
 }
 
 /********************************
@@ -90,19 +121,8 @@ h1{
 	padding-top: 2%;
 }
 
-.margin{
+div.margin{
 	padding: 1%;
-}
-
-input,
-button,
-form{
-	display: inline;
-	position: inherit;
-}
-
-input{
-	margin: 2% 0 0 5%;
 }
 /********************************
 Middle
@@ -113,8 +133,13 @@ p{
 	margin: 2%;
 }
 
+.thanks{
+	margin: 10% auto 0;
+	background-color: lightblue;
+	padding: 10%;
+}
 
-#pic{
+div.pic img#pic{
 	width: 70%;
 	height: 100%;
 	/*margin-left: 15%;
@@ -128,25 +153,24 @@ Bottom
 ********************************/
 
 
-.logo{
+div.clearfix img.logo{
 	width: 25%;
 	height: 13%;
 	margin: 0 0 0 14%;
 	float: left;
 }
 
-.verse{
+div.clearfix p.verse{
 	margin: -10% 15% 0 55%;
 	font-size: 150%;
 	float: right;
 }
-
-/********************************
+/******************************
 Clearfixes
 ********************************/
 
 
-.clearfix:after {
+div.clearfix:after {
 	content: ".";
 	display: block;
 	clear: both;
@@ -155,10 +179,118 @@ Clearfixes
 	height: 0;
 }
  
-.clearfix {
+div.clearfix {
 	display: inline-block;
 }
 
+/********************************
+Contact
+********************************
+
+form table{
+	width: 375px;
+	margin-bottom: 16px;
+	border-collapse: collapse;
+	border-spacing: 0;
+	white-space: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-size: medium;
+	font-variant: normal;
+	font-style: normal;
+	color: -webkit-text;
+	text-align: start;
+	display: table;
+}
+
+form{
+	width: 375px;
+	margin: 34px auto;
+	display: block;
+}
+
+tbody{
+	display: table-row-group;
+	vertical-align: middle;
+	border-color: inherit;
+}
+
+form tr{
+	border: 1px solid black;
+	background: lightblue;
+	display: table-row;
+	vertical-align: inherit;
+}
+
+form th{
+	width: 85px;
+	border-right: 1px solid black;
+	vertical-align: middle;
+	padding: 8px;
+	font-weight: bold;
+}
+
+td, th{
+	display: table-cell;
+	vertical-align: inherit;
+	
+}
+
+label {
+	cursor: default;
+}
+
+form td {
+	padding: 15px 15px;
+}
+
+input, textarea{
+	width: 100%;
+}
+
+textarea{
+	font-size: 100%;
+	margin: 0;
+	box-sizing: border-box;
+	-webkit-appearance: textarea;
+	background-color: white;
+	border: 1px solid;
+	-webkit-rtl-ordering: logical;
+	-webkit-user-select: text;
+	-webkit-flex-direction: column;
+	resize: auto;
+	cursor: auto;
+	padding: 2px;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	font: -webkit-small-control;
+	letter-spacing: normal;
+	word-spacing: normal;
+	text-transform: none;
+	text-indent: 0px;
+	text-shadow: none;
+	display: inline-block;
+	text-align: start;
+	-webkit-writing-mode: horizontal-tb;
+}
+
+input[type="submit"]{
+	-webkit-align-items: flex-start;
+	width: 375px;
+	text-align: center;
+	border: 1px solid black;
+	background: lightblue;
+	color: #FFF;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	font-size: 14px;
+	text-transform: uppercase;
+	padding: 14px;
+	-webkit-appearance: button;
+	cursor: pointer;
+	margin: 0;
+	vertical-align: baseline;
+}
 /********************************
 Custom Fonts
 ********************************/
