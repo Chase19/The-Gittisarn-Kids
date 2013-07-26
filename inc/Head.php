@@ -22,9 +22,10 @@
 			<div><a class="<?php if($section == "brooklyn"){echo "on";} ?>" href="brooklyn.php">Kiwi</a></div>
 			<div><a class="<?php if($section == "rome"){echo "on";} ?>" href="rome.php">Rock</a></div>
 			
-			<form>
-				<input id="text_feild">
-				<button>Search</button>
+			
+			<form method="get" action="./">
+				<input type="text" id="text_feild" name="s">
+				<input class="submit" type="submit" value="Go">
 			</form>
 		</nav>
 	
